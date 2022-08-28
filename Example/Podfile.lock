@@ -1,0 +1,16 @@
+PODS:
+  - Essential (0.1.0)
+
+DEPENDENCIES:
+  - Essential (from `../`)
+
+EXTERNAL SOURCES:
+  Essential:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Essential: c3afd2cc71bb748905e02e55661bab3ecbe8ae68
+
+PODFILE CHECKSUM: 4f24c000e6d5052501e8e84810e53e0cc52680f2
+
+COCOAPODS: 1.11.3
