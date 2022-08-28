@@ -1,0 +1,6 @@
+use_frameworks!
+target 'Essential_Tests' do
+  pod 'Essential', :path => '../'
+  
+  
+end
