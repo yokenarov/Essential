@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		1E3F3C83A1E45E8610595B45E3C266A4 /* Essential-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4119C9698A6A0510B18FCFC3A3C5166 /* Essential-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3D3075C83D35E3F41140BDF58A61A9A0 /* Essential-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 533F1700ED6DAA1B20FD43F15A3A2B19 /* Essential-dummy.m */; };
-		5BE17A0260845AEEFBFCB55881A6F08A /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78888593499B9F9FDE0F03BE764B39C6 /* ReplaceMe.swift */; };
 		6121C336875133D16C52A5A74CD82BE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		88D1BD2A48AD26CAD9538038F52603CF /* Pods-Essential_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66B1138D5F7BC82CCF66E78A48138D58 /* Pods-Essential_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAC1E6A728BC1243003327A5 /* Utilis in Resources */ = {isa = PBXBuildFile; fileRef = AAC1E6A628BC1243003327A5 /* Utilis */; };
 		DCDFEFCAEDAC28026FD4E45C5A04B4C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		E36D8607597C6BC116CCE60A9CB90863 /* Pods-Essential_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84787BDD896F549838CD671693C6F848 /* Pods-Essential_Tests-dummy.m */; };
 /* End PBXBuildFile section */
@@ -34,23 +34,23 @@
 		533F1700ED6DAA1B20FD43F15A3A2B19 /* Essential-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Essential-dummy.m"; sourceTree = "<group>"; };
 		66B1138D5F7BC82CCF66E78A48138D58 /* Pods-Essential_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Essential_Tests-umbrella.h"; sourceTree = "<group>"; };
 		6ECDCDA5EFE403444A588BEA82968034 /* Pods-Essential_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Essential_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		6FC744846ECA4AF6BC0709B448AE769B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6FC744846ECA4AF6BC0709B448AE769B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		71B108AD3B14897B418A4527393BCCBA /* Pods-Essential_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Essential_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		758A81B66341CCF85987DBC4927DB83C /* Pods-Essential_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Essential_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		77BFD88EE45F2CD3E89ED167DBF7FEC5 /* Essential.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Essential.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		78888593499B9F9FDE0F03BE764B39C6 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = Essential/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		77BFD88EE45F2CD3E89ED167DBF7FEC5 /* Essential.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Essential.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7E6DF5296F7F788EB1CF0F005646FA4B /* Essential-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Essential-prefix.pch"; sourceTree = "<group>"; };
 		84787BDD896F549838CD671693C6F848 /* Pods-Essential_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Essential_Tests-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DD3A649BE334324D40E4DA0AFF802EA /* Essential.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Essential.debug.xcconfig; sourceTree = "<group>"; };
 		A9BA68938B5753524816A45D9ED3A92A /* Pods-Essential_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Essential_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		AAC1E6A628BC1243003327A5 /* Utilis */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Utilis; path = Essential/Classes/Utilis; sourceTree = "<group>"; };
 		B3C282AD29F3A5968DB69E1A1FF7B9E4 /* Pods-Essential_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Essential_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		B4119C9698A6A0510B18FCFC3A3C5166 /* Essential-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Essential-umbrella.h"; sourceTree = "<group>"; };
 		B6B596F4843AA410A8586A41C392FAA7 /* Pods-Essential_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Essential_Tests.modulemap"; sourceTree = "<group>"; };
 		D034EDD2661FF1363F0AF649E01181D8 /* Essential.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Essential.modulemap; sourceTree = "<group>"; };
 		E828CA6EC02B0D5FAA0A3AAB5C68594B /* Pods-Essential_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Essential_Tests"; path = Pods_Essential_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EBE96E68F4C080EB54BC46692A2AE08B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		EBE96E68F4C080EB54BC46692A2AE08B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +76,7 @@
 		16821AE5AB42C8481CC6E53259D0B7FB /* Essential */ = {
 			isa = PBXGroup;
 			children = (
-				78888593499B9F9FDE0F03BE764B39C6 /* ReplaceMe.swift */,
+				AAC1E6A628BC1243003327A5 /* Utilis */,
 				1FF310F694FA036EB69B748123C72FD7 /* Pod */,
 				564871B75281B8D866ED6B0811FD37CD /* Support Files */,
 			);
@@ -277,6 +277,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAC1E6A728BC1243003327A5 /* Utilis in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,7 +297,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D3075C83D35E3F41140BDF58A61A9A0 /* Essential-dummy.m in Sources */,
-				5BE17A0260845AEEFBFCB55881A6F08A /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,8 +401,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
